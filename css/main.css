@@ -135,6 +135,11 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
 
+.custome__container{
+  width: 80%;
+  margin: auto;
+}
+
 .limiter {
   width: 1366px;
 margin-top: 100px;}
@@ -276,7 +281,7 @@ th, td {
 
 .column1 {
   width: 33%;
-  padding-left: 40px;
+  padding-left: 40px;  
 }
 
 .column2 {
@@ -305,6 +310,24 @@ th, td {
   padding-bottom: 16px;
 }
 
+
+@media screen and (max-width: 768px) {
+  .custome__container{
+    width: 90%;
+  }
+  .column1 {
+    text-align: center;
+    padding-left: 5px;
+  }
+
+  .table100-head th{
+    padding: 16px 17px;
+    text-align: center;
+  }
+  .table100-body td{
+    padding: 16px 17px;
+  }
+}
 /*==================================================================
 [ Fix header ]*/
 .table100 {
